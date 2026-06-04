@@ -8,10 +8,11 @@
     </a>
 
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#clients">Clients</a></li>
-      <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      <li><a href="{{ route('home') }}">Home</a></li>
+      <li><a href="{{ route('about') }}">About</a></li>
+      <li><a href="{{ route('services') }}">Services</a></li>
+      <li><a href="{{ route('clients') }}">Clients</a></li>
+      <li><a href="{{ route('contact') }}">Contact</a></li>
     </ul>
 
     <div class="hamburger" onclick="toggleMobile()" id="burger">
