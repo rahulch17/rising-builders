@@ -8,7 +8,9 @@
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="{{ url('/services') }}">Services</a></li>
+
+
       <li><a href="#clients">Clients</a></li>
       <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
     </ul>
